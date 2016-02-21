@@ -9,6 +9,12 @@
 
     <name>Phonebook</name>
 
+    <organization>
+      <name>Engenharia de Software, IST 2016</name>
+      <url>https://fenix.tecnico.ulisboa.pt/disciplinas/ESof96451113/2015-2016/2-semestre</url> <!-- Alameda -->
+      <!-- ESof141113 Tagus -->
+    </organization>
+
     <developers>
       <developer> <!-- FIXME: one developer for each team member -->
         <id>ist99999</id> <!-- FIXME -->

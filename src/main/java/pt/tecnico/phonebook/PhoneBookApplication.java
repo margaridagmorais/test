@@ -24,10 +24,12 @@ public class PhoneBookApplication {
 
     public static void main(String[] args) throws IOException {
         System.out.println("*** Welcome to the PhoneBook application! ***");
-    	setup();
-	for (String s: args) xmlScan(new File(s));
-	print();
-	xmlPrint();
+	try {
+	    setup();
+	    for (String s: args) xmlScan(new File(s));
+	    print();
+	    xmlPrint();
+	} finally { FenixFramework.shutdown(); }
     }
 
     @Atomic

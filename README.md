@@ -12,7 +12,7 @@
 
   mysql> CREATE DATABASE phonebook;
 
-  musql> \q
+  mysql> \q
 
   $ git clone https://github.com/tecnico-softeng/phonebook-V1.git
 

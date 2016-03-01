@@ -1,6 +1,6 @@
 package pt.tecnico.phonebook.domain;
 
-//i changed sometiming to test git add and git commit
+//i changed something to test git add and git commit
 
 class PhoneBook;
 
